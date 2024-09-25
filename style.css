@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-right: 55px;
+}
+
+.logo {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.nav li a {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.nav li a:hover {
+    color: rgb(183, 177, 177);
+}
+
+hr {
+    margin-top: 10px;
+    opacity: 40%;
+}
+
+
+/* First section */
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.left {
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/left-banner-image.jpg);
+    height: 620px;
+    width: 730px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+.left h1 {
+    color: white;
+    font-size: 60px;
+
+}
+
+.left p {
+    color: white;
+    font-size: 20px;
+}
+
+.left button {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+
+.left button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+
+.boxes2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.box-1 {
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/baner-right-image-01.jpg);
+}
+
+.box-2 {
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/baner-right-image-02.jpg);
+}
+
+.box-3 {
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/baner-right-image-03.jpg);
+}
+
+.box-4 {
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/baner-right-image-04.jpg);
+}
+
+.box {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
